@@ -97,7 +97,7 @@ if not RELEASE:
 ##
 ### Freeze build information in version.py
 ##generate_version_py(PACKAGENAME, VERSION, RELEASE,
-                    get_debug_option(PACKAGENAME))
+##                    get_debug_option(PACKAGENAME))
 
 # Treat everything in scripts except README.rst as a script to be installed
 scripts = [fname for fname in glob.glob(os.path.join('scripts', '*'))
