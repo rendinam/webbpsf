@@ -86,8 +86,8 @@ VERSION = '0.7.1dev'
 # Indicates if this version is a release version
 RELEASE = 'dev' not in VERSION
 
-if not RELEASE:
-    VERSION += get_git_devstr(False)
+##if not RELEASE:
+##    VERSION += get_git_devstr(False)
 
 # Populate the dict of setup command overrides; this should be done before
 # invoking any other functionality from distutils since it can potentially
