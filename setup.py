@@ -199,7 +199,7 @@ setup(name=PACKAGENAME,
       license=LICENSE,
       url=URL,
       long_description=LONG_DESCRIPTION,
-      cmdclass=cmdclassd,
+      #cmdclass=cmdclassd,
       zip_safe=False,
       ##**package_info
 )
