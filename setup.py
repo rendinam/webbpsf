@@ -9,8 +9,20 @@ import sys
 import imp
 import ast
 
+import THISISHELLANDTHEREISNOESCAPE
+
 __packagename__ = 'webbpsf'
 __minimum_python_version__ = "3.5"
+
+print("*************************************************")
+print("*************************************************")
+print("*************************************************")
+print("*************************************************")
+print("*************************************************")
+print("*************************************************")
+print("*************************************************")
+print("*************************************************")
+
 
 # Enforce Python version check - this is the same check as in __init__.py but
 # this one has to happen before importing ah_bootstrap.
