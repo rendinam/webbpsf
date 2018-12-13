@@ -9,8 +9,6 @@ import sys
 import imp
 import ast
 
-import THISISHELLANDTHEREISNOESCAPE
-
 __packagename__ = 'webbpsf'
 __minimum_python_version__ = "3.5"
 
