@@ -37,7 +37,7 @@ WARNING: NumPy was not found! setup.py will attempt to install it if asked, but
 \tSee https://github.com/numpy/numpy/issues/2434 for details.
 """)
 
-#import ah_bootstrap
+import ah_bootstrap
 from setuptools import setup, Command
 from setuptools.command.test import test as TestCommand
 
