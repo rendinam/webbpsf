@@ -108,6 +108,7 @@ scripts = [fname for fname in glob.glob(os.path.join('scripts', '*'))
 # See the docstring for setup_helpers.update_package_files for more
 # details.
 ##package_info = get_package_info()
+package_info = {}
 
 # Add the project-global data
 package_info['package_data'].setdefault(PACKAGENAME, [])
